@@ -1,0 +1,29 @@
+:root {
+    /* Primary colors */
+    --strong-cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+
+    /* Neutral colors */
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --grayish-blue: hsl(201, 11%, 66%);
+
+    /* Font */
+    --bai-jamjuree: 'Bai Jamjuree', sans-serif;
+    --regular: 400;
+    --bold: 600;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
