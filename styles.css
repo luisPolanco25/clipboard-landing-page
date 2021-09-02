@@ -350,3 +350,251 @@ footer ul li a:hover {
 #social-media a:last-child {
     margin-right: 0;
 }
+
+
+@media (max-width: 1200px) {
+    #keep-track img {
+        width: 500px;
+        position: relative;
+        right: 30px;
+        top: -2px;
+    }    
+
+    #supercharge #companies {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        margin-bottom: 156px;
+    }
+    
+    #companies img {
+        margin-bottom: 66px;
+    }
+}
+
+@media (max-width: 910px) {
+    #access-clipboard img {
+        width: 700px;
+    }    
+
+    footer {
+        padding: 44px 0px 24px 0px;
+    }
+}
+
+@media (max-width: 780px) {
+
+    header {
+        padding-top: 124px;
+        margin-bottom: 160px;
+    }
+    
+    header img {
+        margin-bottom: 62px;
+    }
+    
+    header h1 {
+        font-size: 2rem;
+        margin-bottom: 16px; 
+    }
+    
+    header p {
+        font-size: 1rem;
+        width: 92%;
+        margin-bottom: 40px;
+    }
+
+    .buttons-container {
+        flex-direction: column;
+    }
+    
+    .buttons-container button {
+        width: 310px;
+    }
+    
+    .ios {
+        margin-right: 0;
+        margin-bottom: 28px;
+    }
+   
+    #keep-track .section-introduction {
+        flex-direction: column;
+        margin-bottom: 66px;
+    }
+
+    #keep-track .section-introduction h2 {
+        font-size: 1.6rem;
+        margin-bottom: 20px;
+    }
+
+    #keep-track .section-introduction p {
+        font-size: 0.9rem;
+        width: 84%;
+    }
+
+    #keep-track .section-content {
+        flex-direction: column;
+    }
+
+    #keep-track img {
+        margin-bottom: 64px;
+        width: 84%;
+        position: static;
+        right: 0;
+        top: 0;
+    }
+
+    #keep-track #content-text {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #keep-track #content-text h3 {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    #keep-track #content-text p {
+        text-align: center;
+        margin-bottom: 48px;
+        width: 82%;
+        font-size: 0.9rem;
+    }
+
+    #access-clipboard {
+        margin-bottom: 86px;
+    }
+
+    #access-clipboard .section-introduction {
+        flex-direction: column;
+        margin-bottom: 66px;
+    }
+
+    #access-clipboard .section-introduction h2 {
+        font-size: 1.6rem;
+        margin-bottom: 16px;
+    }
+
+    #access-clipboard .section-introduction p {
+        font-size: 0.9rem;
+        width: 84%;
+    }
+
+    #access-clipboard img {
+        width: 92%;
+    }
+    
+    #supercharge .section-introduction {
+        flex-direction: column;
+        margin-bottom: 66px;
+    }
+
+    #supercharge .section-introduction h2 {
+        font-size: 1.6rem;
+        margin-bottom: 16px;
+        width: 98%;
+    }
+
+    #supercharge .section-introduction p {
+        font-size: 0.9rem;
+        width: 84%;
+    }
+
+    #supercharge #features {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 76px;
+    }
+    
+    .feature img {
+        margin-bottom: 38px;
+    }
+    
+    .feature p {
+        width: 88%;
+        margin-bottom: 54px;
+    }
+    
+    #supercharge #companies {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 84%;
+        margin-bottom: 156px;
+    }
+
+    #clipboard-ios-macos {
+        margin-bottom: 174px;
+    }
+    
+    #clipboard-ios-macos .section-introduction {
+        margin-bottom: 100px;
+    }
+    
+    #clipboard-ios-macos .section-introduction h2 {
+        font-size: 1.6rem;
+        width: 92%;
+        margin-bottom: 20px;
+    }
+    
+    #clipboard-ios-macos .section-introduction p {
+        font-size: 0.9rem;
+        width: 83%;
+        margin-bottom: -52px;
+    }
+
+    footer {
+        padding: 50px 80px 52px 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #footer-logo img {
+        margin: 38px;
+    }
+    
+    footer ul li {
+        margin-bottom: 1.4rem;
+        text-align: center;
+    }
+    
+    footer ul li a {
+        font-size: 0.9rem;
+    }
+
+    #social-media {
+        margin-top: 20px;
+    }
+    
+    #social-media a {
+        background: transparent;
+        color: var(--dark-grayish-blue);
+        font-size: 1.54rem;
+        margin-right: 2rem;
+        cursor: pointer;
+        transition: all 300ms ease;
+    }
+    
+    #social-media a:hover {
+        color: var(--strong-cyan);
+    }
+    
+    #social-media a:last-child {
+        margin-right: 0;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    header {
+        background: url('./images/bg-header-mobile.png') no-repeat top center;
+    }
+
+}
