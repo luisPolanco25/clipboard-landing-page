@@ -601,6 +601,14 @@ footer ul li a:hover {
 
 @media (max-width: 320px) {
 
+    header h1 {
+        font-size: 1.3rem;
+    }
+    
+    header p {
+        font-size: 0.9rem;
+    }
+    
     .buttons-container button {
         width: 260px;
     }
