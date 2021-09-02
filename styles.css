@@ -598,3 +598,24 @@ footer ul li a:hover {
     }
 
 }
+
+@media (max-width: 320px) {
+
+    .buttons-container button {
+        width: 260px;
+    }
+
+    footer {
+        padding: 50px;
+        padding-bottom: 52px;
+    }
+
+}
+
+@media (max-width: 290px) {
+
+    .buttons-container button {
+        width: 240px;
+    }
+
+}
